@@ -26,7 +26,7 @@ router.get("/:game/:platform/:gamertag", async (req, res) => {
   } catch (err) {
     console.error(err);
     res.status(500).json({
-      message: "Server Errorasdfasdfasdf"
+      message: "Server Error"
     });
   }
 });
